@@ -10,7 +10,7 @@ function App() {
             Create and manage tournament brackets with nurtul!
         </h1>
 
-        <img className="tournExample" src="../public/tourn-example.png" alt="" />
+        <img className="tournExample" src="/tourn-example.png" alt="" />
 
         <Link to="/opros">
             <button className='startButton'>START</button>
