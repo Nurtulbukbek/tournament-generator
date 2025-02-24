@@ -12,7 +12,7 @@ function App() {
 
         <img className="tournExample" src="/tourn-example.png" alt="" />
 
-        <Link to="/opros">
+        <Link to="/settings">
             <button className='startButton'>START</button>
         </Link>
       </div>

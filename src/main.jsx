@@ -5,7 +5,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './css/index.css'
 import App from './App.jsx'
-import Opros from './Opros.jsx'
+import Settings from './Settings.jsx'
 
 
 
@@ -17,8 +17,8 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: '/opros',
-        element: <Opros />,
+        path: '/settings',
+        element: <Settings />,
     },
 ])
 

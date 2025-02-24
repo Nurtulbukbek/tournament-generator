@@ -1,0 +1,185 @@
+.tourName {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.tourNameTittle {
+    font-size: 14px;
+    justify-content: start;
+    font-weight: 200;
+}
+
+.tournNameInput {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #03004D;
+    box-shadow: none;
+    color: white;
+    font-size: 24px;
+
+    margin-bottom: 30px;
+}
+
+
+.tourPlayerList {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tourPlayerListTittle {
+    font-size: 14px;
+    justify-content: start;
+    font-weight: 200;
+}
+
+.tourPlayerListMainInput {
+    display: flex;
+    width: 80vw;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tourPlayerListInput {
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 5px;
+    border: 1px solid white;
+    background-color: #03004D;
+    box-shadow: none;
+    color: white;
+    font-size: 24px;
+}
+
+.playerNameSubmit {
+    text-align: end;
+    width: 60px;
+}
+
+.playerBoard {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 15px;
+}
+
+.tourPlayerListOl, .tourPlayerListLi  {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.player {
+    display: flex;
+    gap: 5px;
+}
+
+.count {
+    background-color: #fff;
+    width: 25px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.playerName {
+    font-weight: normal;
+}
+
+.playerBoardButtons {
+    display: flex;
+    gap: 5px;
+}
+
+.changeButton {
+    height: 40px;
+    width: 40px;
+    background-color: #03004D;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.changeButton img {
+    height: 60%;
+} 
+
+.deleteButton {
+    height: 40px;
+    width: 40px;
+    background-color: #03004D;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.deleteButton img {
+    height: 60%;
+} 
+
+.editInput {
+    width: 100%;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    background-color: #03004D;
+    color: white;
+    font-size: 24px;
+}
+
+.editInput:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.editButton {
+    height: 40px;
+    width: 40px;
+    background-color: #03004D;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.randomOrNot {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.randomInput {
+    display: flex;
+    text-align: start;
+}
+
+.examples {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.exampleItem {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.randomImage {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px 10px ;
+}
